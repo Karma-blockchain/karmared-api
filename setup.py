@@ -4,10 +4,10 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(name='karmared-api',
-      version='0.0.1',
+      version='0.0.2',
       long_description=long_description,
       long_description_content_type="text/markdown",
-      url='https://github.com/Karma-blockchain/kafka-transport',
+      url='https://github.com/Karma-blockchain/karmared-api',
       author='Nozdrin-Plotnitsky Nikolay',
       author_email='nozdrin.plotnitsky@karma.red',
       license='MIT',
