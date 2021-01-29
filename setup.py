@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(name='karmared-api',
-      version='0.0.2',
+      version='0.0.3',
       long_description=long_description,
       long_description_content_type="text/markdown",
       url='https://github.com/Karma-blockchain/karmared-api',
@@ -14,5 +14,5 @@ setup(name='karmared-api',
       packages=find_packages(),
       install_requires=[
           "aiohttp",
-          "graphql"
+          "graphql-core>=3"
       ])
